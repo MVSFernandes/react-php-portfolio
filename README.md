@@ -1,5 +1,7 @@
 # React PHP Portfolio
 
+![App Screenshot](docs/screenshot.png)
+
 A portfolio project manager built with a React frontend and a PHP/MySQL REST API. The app lists academic projects and supports creating, editing, deleting, uploading project images, and attaching compressed project files.
 
 ## Stack
@@ -33,7 +35,7 @@ The React app runs at `http://localhost:3000` by default.
 1. Serve the repository through Apache/PHP so the backend is reachable at:
 
 ```text
-http://localhost/meuprojeto/backend/index.php
+http://localhost/react-php-portfolio/backend/index.php
 ```
 
 2. Create the MySQL database and table:
@@ -44,14 +46,14 @@ mysql -u root -p < backend/db/criarTab.sql
 
 3. Update local database settings in `backend/db/parametro.php` if your MySQL host, database, username, or password differ from the defaults.
 
-4. Make sure the `uploads/` directory is writable by PHP.
+4. Make sure the `uploads/` directory is writable by PHP. This folder is not versioned and must be created manually if it does not exist.
 
 ## API Endpoints
 
 Base URL:
 
 ```text
-http://localhost/meuprojeto/backend/index.php
+http://localhost/react-php-portfolio/backend/index.php
 ```
 
 | Method | Endpoint | Description |
