@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+vendor/
+backend/vendor/
+
+# Production builds
+build/
+frontend/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test and package manager output
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime uploads
+uploads/*
+!uploads/.gitkeep
