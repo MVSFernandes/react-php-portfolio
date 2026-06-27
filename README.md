@@ -1,6 +1,6 @@
 # React PHP Portfolio
 
-![App Screenshot](docs/screenshot.png)
+![React + PHP Portfolio](docs/image.png)
 
 A portfolio project manager built with a React frontend and a PHP/MySQL REST API. The app lists academic projects and supports creating, editing, deleting, uploading project images, and attaching compressed project files.
 
